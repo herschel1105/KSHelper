@@ -1,0 +1,22 @@
+{
+  "name": "KSHelper",
+  "version": "0.1.0",
+  "summary": "A short description of KSHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/herschel1105/KSHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "herschel1105": "keigo.s1105@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/herschel1105/KSHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KSHelper/Classes/**/*"
+}

@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19F0BECB7EBE00A6C27FA6DB47E85FE0 /* Pods-KSHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE5054FDA34852670825ABDE8B5C265 /* Pods-KSHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A42D4AA68ABE0A435B6B84196118606 /* KSHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB0781878607A3657EE4D0FD3E63F58 /* KSHelper-dummy.m */; };
+		409140378EA65AC0E5FDAAADBD512E67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		490B9D1622D3608E003737BC /* KSLoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B9D1522D3608E003737BC /* KSLoadingImageView.swift */; };
+		57C2103CBDCA08710B1A5DD0A438561E /* Pods-KSHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C3A348C53E7A91EF35962ABA8FDE9 /* Pods-KSHelper_Example-dummy.m */; };
+		5A149A5DB6622E81517498EF7E7E5EC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6F83D4C7C44EADD05A8F2CE019D8E3A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		788D28EC87588AC2F97886708EF75A42 /* Pods-KSHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F535162CDD4E964F1E83C1FC674CB504 /* Pods-KSHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B892933D5077C0B6DF751CCD4D2F6783 /* Pods-KSHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F841F3D1802C84C70AE7AEE5F6F2FC /* Pods-KSHelper_Tests-dummy.m */; };
+		CE65BA7D1686F56B51C45F4862F4E43F /* KSHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5422D3FD81693DD5F446E6F61FABDB91 /* KSHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85FCC5CE65F338223FEDBE272B2160D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C6E0C7B345A8C830A981EBD268A2C00;
+			remoteInfo = "Pods-KSHelper_Example";
+		};
+		D576001BC2F97B986CC03CF90AEDA073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40CBF71D8464E8BF2585363C73AB3AE3;
+			remoteInfo = KSHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0305FA7DCEB0312F8469476974163F75 /* KSHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KSHelper-Info.plist"; sourceTree = "<group>"; };
+		0F86075470DF97980C393452C2649CC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1214B1F082A1C5018263BC6F20759224 /* KSHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KSHelper.xcconfig; sourceTree = "<group>"; };
+		1759938632835DB6251F2A412266FB4C /* Pods-KSHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1E6F4500305D074D9E30480356E83091 /* KSHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSHelper-prefix.pch"; sourceTree = "<group>"; };
+		2BA014D9ADE821E80BD695B54FDDDDAF /* Pods-KSHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34B1D1E6D488B56E0657CC082847780E /* KSHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KSHelper.modulemap; sourceTree = "<group>"; };
+		3AC58D119826F895B76E6597C8DFC5C3 /* Pods-KSHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSHelper_Example-Info.plist"; sourceTree = "<group>"; };
+		3DAE0437324ECEB7C255B222F8485F0B /* Pods_KSHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		490B9D1522D3608E003737BC /* KSLoadingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSLoadingImageView.swift; sourceTree = "<group>"; };
+		52725C93206D1E50F056834BCF37B495 /* Pods-KSHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5422D3FD81693DD5F446E6F61FABDB91 /* KSHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSHelper-umbrella.h"; sourceTree = "<group>"; };
+		579529A2080F1A109ADF89BF19541FB8 /* KSHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D110E31EA4B62913506E9DF46E91F2 /* Pods-KSHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5D67D7D38742867615ECC2338FC617A1 /* Pods-KSHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSHelper_Tests-Info.plist"; sourceTree = "<group>"; };
+		5F7C3A348C53E7A91EF35962ABA8FDE9 /* Pods-KSHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSHelper_Example-dummy.m"; sourceTree = "<group>"; };
+		615D59ABF3C1C3E3626297C47160713D /* Pods-KSHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		61F841F3D1802C84C70AE7AEE5F6F2FC /* Pods-KSHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSHelper_Tests-dummy.m"; sourceTree = "<group>"; };
+		6DB0781878607A3657EE4D0FD3E63F58 /* KSHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KSHelper-dummy.m"; sourceTree = "<group>"; };
+		83DF69689860D8594F7F489C2287322E /* Pods-KSHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9425779DA696EC1FF779B3231B001592 /* Pods-KSHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSHelper_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2DFFCFC6A111C5B5AFF6E5FC449935D /* KSHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KSHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3A3D081E3AAFFE81E53D5BED524A991 /* Pods-KSHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE1FA6E957D0670C8D43FDFA323D6F03 /* Pods-KSHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA7D52E8523E31C84C0A726BD7846334 /* Pods-KSHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSHelper_Example.modulemap"; sourceTree = "<group>"; };
+		D4D898E3BC50E98CF8B0A15A7FF775B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DEE4657F09D1C4B8F3C2553B18E8786A /* Pods_KSHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE5054FDA34852670825ABDE8B5C265 /* Pods-KSHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSHelper_Example-umbrella.h"; sourceTree = "<group>"; };
+		F17F72F0EFDDF5365458FABB79EBA14F /* Pods-KSHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F535162CDD4E964F1E83C1FC674CB504 /* Pods-KSHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6683EB0435F9D72CAAB9B30430128FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F83D4C7C44EADD05A8F2CE019D8E3A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE2D3AE5885E9A135FE0C648EC025D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409140378EA65AC0E5FDAAADBD512E67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834912E5D9F8D73323D47A4FD23EDC10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A149A5DB6622E81517498EF7E7E5EC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		471EFA921A043262A674F8EDB3763A5C /* Pods-KSHelper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9425779DA696EC1FF779B3231B001592 /* Pods-KSHelper_Tests.modulemap */,
+				B3A3D081E3AAFFE81E53D5BED524A991 /* Pods-KSHelper_Tests-acknowledgements.markdown */,
+				F17F72F0EFDDF5365458FABB79EBA14F /* Pods-KSHelper_Tests-acknowledgements.plist */,
+				61F841F3D1802C84C70AE7AEE5F6F2FC /* Pods-KSHelper_Tests-dummy.m */,
+				5D67D7D38742867615ECC2338FC617A1 /* Pods-KSHelper_Tests-Info.plist */,
+				F535162CDD4E964F1E83C1FC674CB504 /* Pods-KSHelper_Tests-umbrella.h */,
+				52725C93206D1E50F056834BCF37B495 /* Pods-KSHelper_Tests.debug.xcconfig */,
+				615D59ABF3C1C3E3626297C47160713D /* Pods-KSHelper_Tests.release.xcconfig */,
+			);
+			name = "Pods-KSHelper_Tests";
+			path = "Target Support Files/Pods-KSHelper_Tests";
+			sourceTree = "<group>";
+		};
+		490B9D1422D36082003737BC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				490B9D1522D3608E003737BC /* KSLoadingImageView.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		59F4C360CAB18E0E856C2F7FDD2E2D69 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF67216A437DCEDD44EA2D300F7E5F8F /* KSHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F5CA2FC87C3CF50CF469ADD3AEBB041 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A2DFFCFC6A111C5B5AFF6E5FC449935D /* KSHelper.podspec */,
+				0F86075470DF97980C393452C2649CC4 /* LICENSE */,
+				D4D898E3BC50E98CF8B0A15A7FF775B3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		634DA88C01FAD9F93DBF9526F82B2C3E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34B1D1E6D488B56E0657CC082847780E /* KSHelper.modulemap */,
+				1214B1F082A1C5018263BC6F20759224 /* KSHelper.xcconfig */,
+				6DB0781878607A3657EE4D0FD3E63F58 /* KSHelper-dummy.m */,
+				0305FA7DCEB0312F8469476974163F75 /* KSHelper-Info.plist */,
+				1E6F4500305D074D9E30480356E83091 /* KSHelper-prefix.pch */,
+				5422D3FD81693DD5F446E6F61FABDB91 /* KSHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KSHelper";
+			sourceTree = "<group>";
+		};
+		6DC3B7127814F505BBBBE935FA35B955 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C03C29DA0024244F6A6EBDF85F3C90B6 /* Pods-KSHelper_Example */,
+				471EFA921A043262A674F8EDB3763A5C /* Pods-KSHelper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C03C29DA0024244F6A6EBDF85F3C90B6 /* Pods-KSHelper_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CA7D52E8523E31C84C0A726BD7846334 /* Pods-KSHelper_Example.modulemap */,
+				2BA014D9ADE821E80BD695B54FDDDDAF /* Pods-KSHelper_Example-acknowledgements.markdown */,
+				83DF69689860D8594F7F489C2287322E /* Pods-KSHelper_Example-acknowledgements.plist */,
+				5F7C3A348C53E7A91EF35962ABA8FDE9 /* Pods-KSHelper_Example-dummy.m */,
+				BE1FA6E957D0670C8D43FDFA323D6F03 /* Pods-KSHelper_Example-frameworks.sh */,
+				3AC58D119826F895B76E6597C8DFC5C3 /* Pods-KSHelper_Example-Info.plist */,
+				EBE5054FDA34852670825ABDE8B5C265 /* Pods-KSHelper_Example-umbrella.h */,
+				58D110E31EA4B62913506E9DF46E91F2 /* Pods-KSHelper_Example.debug.xcconfig */,
+				1759938632835DB6251F2A412266FB4C /* Pods-KSHelper_Example.release.xcconfig */,
+			);
+			name = "Pods-KSHelper_Example";
+			path = "Target Support Files/Pods-KSHelper_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				59F4C360CAB18E0E856C2F7FDD2E2D69 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E62D18C68CF5B1678248D8CC41F59D11 /* Products */,
+				6DC3B7127814F505BBBBE935FA35B955 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF67216A437DCEDD44EA2D300F7E5F8F /* KSHelper */ = {
+			isa = PBXGroup;
+			children = (
+				490B9D1422D36082003737BC /* Source */,
+				5F5CA2FC87C3CF50CF469ADD3AEBB041 /* Pod */,
+				634DA88C01FAD9F93DBF9526F82B2C3E /* Support Files */,
+			);
+			name = KSHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E62D18C68CF5B1678248D8CC41F59D11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				579529A2080F1A109ADF89BF19541FB8 /* KSHelper.framework */,
+				3DAE0437324ECEB7C255B222F8485F0B /* Pods_KSHelper_Example.framework */,
+				DEE4657F09D1C4B8F3C2553B18E8786A /* Pods_KSHelper_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DD66D92A426C7ADD501BEF3C58E3BD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F0BECB7EBE00A6C27FA6DB47E85FE0 /* Pods-KSHelper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8544FBE5B68F25C949EADBA4DAFC4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D28EC87588AC2F97886708EF75A42 /* Pods-KSHelper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA10335501326122EE535F7738DB3023 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE65BA7D1686F56B51C45F4862F4E43F /* KSHelper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C6E0C7B345A8C830A981EBD268A2C00 /* Pods-KSHelper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F4F20288F69424C6AE1645B5092C65 /* Build configuration list for PBXNativeTarget "Pods-KSHelper_Example" */;
+			buildPhases = (
+				1DD66D92A426C7ADD501BEF3C58E3BD2 /* Headers */,
+				CE9E51E4E755912FDD5B71F7F9390376 /* Sources */,
+				7BE2D3AE5885E9A135FE0C648EC025D3 /* Frameworks */,
+				DB42D121098444CE2A47216196D009E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99297B1969D9C0D57D6AC32B219F2556 /* PBXTargetDependency */,
+			);
+			name = "Pods-KSHelper_Example";
+			productName = "Pods-KSHelper_Example";
+			productReference = 3DAE0437324ECEB7C255B222F8485F0B /* Pods_KSHelper_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40CBF71D8464E8BF2585363C73AB3AE3 /* KSHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3BFBA6217DD852FA77A0005DF3690A /* Build configuration list for PBXNativeTarget "KSHelper" */;
+			buildPhases = (
+				BA10335501326122EE535F7738DB3023 /* Headers */,
+				5D5CEF62A313DFE65C33B796C5783D75 /* Sources */,
+				6683EB0435F9D72CAAB9B30430128FE8 /* Frameworks */,
+				D7F012C9FDC12BD966B0EEBB1AAF82DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSHelper;
+			productName = KSHelper;
+			productReference = 579529A2080F1A109ADF89BF19541FB8 /* KSHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A702F6C4F21229FB4B5DD59DE719FA13 /* Pods-KSHelper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1913D38204751440931C8EA4A5D0AC2D /* Build configuration list for PBXNativeTarget "Pods-KSHelper_Tests" */;
+			buildPhases = (
+				6F8544FBE5B68F25C949EADBA4DAFC4D /* Headers */,
+				998E7112A0DD37C80F44062B77B146F5 /* Sources */,
+				834912E5D9F8D73323D47A4FD23EDC10 /* Frameworks */,
+				A1C0B1FA641EAC73E16CB394EBD79180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D130B8F361310B910500886A0C41E2A /* PBXTargetDependency */,
+			);
+			name = "Pods-KSHelper_Tests";
+			productName = "Pods-KSHelper_Tests";
+			productReference = DEE4657F09D1C4B8F3C2553B18E8786A /* Pods_KSHelper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E62D18C68CF5B1678248D8CC41F59D11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40CBF71D8464E8BF2585363C73AB3AE3 /* KSHelper */,
+				0C6E0C7B345A8C830A981EBD268A2C00 /* Pods-KSHelper_Example */,
+				A702F6C4F21229FB4B5DD59DE719FA13 /* Pods-KSHelper_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1C0B1FA641EAC73E16CB394EBD79180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F012C9FDC12BD966B0EEBB1AAF82DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB42D121098444CE2A47216196D009E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D5CEF62A313DFE65C33B796C5783D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42D4AA68ABE0A435B6B84196118606 /* KSHelper-dummy.m in Sources */,
+				490B9D1622D3608E003737BC /* KSLoadingImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998E7112A0DD37C80F44062B77B146F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B892933D5077C0B6DF751CCD4D2F6783 /* Pods-KSHelper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9E51E4E755912FDD5B71F7F9390376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C2103CBDCA08710B1A5DD0A438561E /* Pods-KSHelper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D130B8F361310B910500886A0C41E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KSHelper_Example";
+			target = 0C6E0C7B345A8C830A981EBD268A2C00 /* Pods-KSHelper_Example */;
+			targetProxy = 85FCC5CE65F338223FEDBE272B2160D0 /* PBXContainerItemProxy */;
+		};
+		99297B1969D9C0D57D6AC32B219F2556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KSHelper;
+			target = 40CBF71D8464E8BF2585363C73AB3AE3 /* KSHelper */;
+			targetProxy = D576001BC2F97B986CC03CF90AEDA073 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2050FC0F5D3C6251FB686B3957467898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1214B1F082A1C5018263BC6F20759224 /* KSHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KSHelper/KSHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KSHelper/KSHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KSHelper/KSHelper.modulemap";
+				PRODUCT_MODULE_NAME = KSHelper;
+				PRODUCT_NAME = KSHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3BE79E70D58BFD26397A6E6942F03871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1214B1F082A1C5018263BC6F20759224 /* KSHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KSHelper/KSHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KSHelper/KSHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KSHelper/KSHelper.modulemap";
+				PRODUCT_MODULE_NAME = KSHelper;
+				PRODUCT_NAME = KSHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41ADF85505C2A8CACDF9025C269B36F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1759938632835DB6251F2A412266FB4C /* Pods-KSHelper_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSHelper_Example/Pods-KSHelper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSHelper_Example/Pods-KSHelper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D88C31A2E2B629456757CAFB5B38132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D110E31EA4B62913506E9DF46E91F2 /* Pods-KSHelper_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSHelper_Example/Pods-KSHelper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSHelper_Example/Pods-KSHelper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4F69B7DA48610864C851DC279505758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615D59ABF3C1C3E3626297C47160713D /* Pods-KSHelper_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSHelper_Tests/Pods-KSHelper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSHelper_Tests/Pods-KSHelper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED62DEA26D280DDAD3AEB9E0B3E8F242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52725C93206D1E50F056834BCF37B495 /* Pods-KSHelper_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSHelper_Tests/Pods-KSHelper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSHelper_Tests/Pods-KSHelper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00F4F20288F69424C6AE1645B5092C65 /* Build configuration list for PBXNativeTarget "Pods-KSHelper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D88C31A2E2B629456757CAFB5B38132 /* Debug */,
+				41ADF85505C2A8CACDF9025C269B36F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1913D38204751440931C8EA4A5D0AC2D /* Build configuration list for PBXNativeTarget "Pods-KSHelper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED62DEA26D280DDAD3AEB9E0B3E8F242 /* Debug */,
+				A4F69B7DA48610864C851DC279505758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3BFBA6217DD852FA77A0005DF3690A /* Build configuration list for PBXNativeTarget "KSHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2050FC0F5D3C6251FB686B3957467898 /* Debug */,
+				3BE79E70D58BFD26397A6E6942F03871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

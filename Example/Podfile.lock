@@ -1,0 +1,16 @@
+PODS:
+  - KSHelper (0.1.0)
+
+DEPENDENCIES:
+  - KSHelper (from `../`)
+
+EXTERNAL SOURCES:
+  KSHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KSHelper: 1728d54319bfa8b130b05dc2dff84dcd2519dc5c
+
+PODFILE CHECKSUM: 65d226fb91ddd7c1b09d343b4b1ebc0165fae8d7
+
+COCOAPODS: 1.7.3
