@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KSHelper_Example' do
+  pod 'KSHelper', :path => '../'
+
+  target 'KSHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
