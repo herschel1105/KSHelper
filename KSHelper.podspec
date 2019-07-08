@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'KSHelper'
-s.version          = '1.0.1'
+s.version          = '1.0.2'
 s.summary          = 'KSHelper is a simple framework.'
 
 s.description      = <<-DESC

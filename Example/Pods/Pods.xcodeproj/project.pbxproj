@@ -11,6 +11,8 @@
 		1A42D4AA68ABE0A435B6B84196118606 /* KSHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB0781878607A3657EE4D0FD3E63F58 /* KSHelper-dummy.m */; };
 		409140378EA65AC0E5FDAAADBD512E67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		49120BC722D367DF00C6681E /* KSLoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49120BC622D367DF00C6681E /* KSLoadingImageView.swift */; };
+		4975D28722D37F7500C8146D /* KSBounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975D28522D37F7500C8146D /* KSBounceButton.swift */; };
+		4975D28A22D3925000C8146D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975D28922D3925000C8146D /* Extensions.swift */; };
 		57C2103CBDCA08710B1A5DD0A438561E /* Pods-KSHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C3A348C53E7A91EF35962ABA8FDE9 /* Pods-KSHelper_Example-dummy.m */; };
 		5A149A5DB6622E81517498EF7E7E5EC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6F83D4C7C44EADD05A8F2CE019D8E3A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -48,6 +50,8 @@
 		3AC58D119826F895B76E6597C8DFC5C3 /* Pods-KSHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSHelper_Example-Info.plist"; sourceTree = "<group>"; };
 		3DAE0437324ECEB7C255B222F8485F0B /* Pods_KSHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49120BC622D367DF00C6681E /* KSLoadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSLoadingImageView.swift; sourceTree = "<group>"; };
+		4975D28522D37F7500C8146D /* KSBounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSBounceButton.swift; sourceTree = "<group>"; };
+		4975D28922D3925000C8146D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		52725C93206D1E50F056834BCF37B495 /* Pods-KSHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5422D3FD81693DD5F446E6F61FABDB91 /* KSHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSHelper-umbrella.h"; sourceTree = "<group>"; };
 		579529A2080F1A109ADF89BF19541FB8 /* KSHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				49120BC622D367DF00C6681E /* KSLoadingImageView.swift */,
+				4975D28522D37F7500C8146D /* KSBounceButton.swift */,
+				4975D28922D3925000C8146D /* Extensions.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -379,6 +385,8 @@
 			files = (
 				1A42D4AA68ABE0A435B6B84196118606 /* KSHelper-dummy.m in Sources */,
 				49120BC722D367DF00C6681E /* KSLoadingImageView.swift in Sources */,
+				4975D28722D37F7500C8146D /* KSBounceButton.swift in Sources */,
+				4975D28A22D3925000C8146D /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
