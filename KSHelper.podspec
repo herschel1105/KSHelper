@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'KSHelper'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
 s.summary          = 'KSHelper is a simple framework.'
 
 s.description      = <<-DESC
@@ -19,7 +19,7 @@ s.ios.deployment_target = '12.0'
 s.source_files = 'Source/**/*.swift'
 s.swift_version = '5.0'
 s.platforms = {
-"ios": "12.0"
+  "ios": "12.0"
 }
 
 end
