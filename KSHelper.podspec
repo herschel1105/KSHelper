@@ -3,16 +3,16 @@
 Pod::Spec.new do |s|
 s.name             = 'KSHelper'
 s.version          = '1.0.0'
-s.summary          = 'KSHelper is a simple framework. which will help you work with simple things but easier.'
+s.summary          = 'KSHelper is a simple framework.'
 
 s.description      = <<-DESC
-'KSKit is a simple framework which will help you work with simple things but easier.
+'KSHelper is a simple framework which will help you work with simple things but easier.
 DESC
 
-s.homepage         = 'https://github.com/herschel1105/KSKit'
+s.homepage         = 'https://github.com/herschel1105/KSHelper'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'herschel1105' => 'keigo.s1105@icloud.com' }
-s.source           = { :git => 'https://github.com/herschel1105/KSKit.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/herschel1105/KSHelper.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '12.0'
 

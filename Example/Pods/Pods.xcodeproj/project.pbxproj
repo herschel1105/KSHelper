@@ -10,7 +10,7 @@
 		19F0BECB7EBE00A6C27FA6DB47E85FE0 /* Pods-KSHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE5054FDA34852670825ABDE8B5C265 /* Pods-KSHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A42D4AA68ABE0A435B6B84196118606 /* KSHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB0781878607A3657EE4D0FD3E63F58 /* KSHelper-dummy.m */; };
 		409140378EA65AC0E5FDAAADBD512E67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		490B9D1622D3608E003737BC /* KSLoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B9D1522D3608E003737BC /* KSLoadingImageView.swift */; };
+		49120BC722D367DF00C6681E /* KSLoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49120BC622D367DF00C6681E /* KSLoadingImageView.swift */; };
 		57C2103CBDCA08710B1A5DD0A438561E /* Pods-KSHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7C3A348C53E7A91EF35962ABA8FDE9 /* Pods-KSHelper_Example-dummy.m */; };
 		5A149A5DB6622E81517498EF7E7E5EC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6F83D4C7C44EADD05A8F2CE019D8E3A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -47,7 +47,7 @@
 		34B1D1E6D488B56E0657CC082847780E /* KSHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KSHelper.modulemap; sourceTree = "<group>"; };
 		3AC58D119826F895B76E6597C8DFC5C3 /* Pods-KSHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSHelper_Example-Info.plist"; sourceTree = "<group>"; };
 		3DAE0437324ECEB7C255B222F8485F0B /* Pods_KSHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		490B9D1522D3608E003737BC /* KSLoadingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSLoadingImageView.swift; sourceTree = "<group>"; };
+		49120BC622D367DF00C6681E /* KSLoadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSLoadingImageView.swift; sourceTree = "<group>"; };
 		52725C93206D1E50F056834BCF37B495 /* Pods-KSHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5422D3FD81693DD5F446E6F61FABDB91 /* KSHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSHelper-umbrella.h"; sourceTree = "<group>"; };
 		579529A2080F1A109ADF89BF19541FB8 /* KSHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,12 +115,12 @@
 			path = "Target Support Files/Pods-KSHelper_Tests";
 			sourceTree = "<group>";
 		};
-		490B9D1422D36082003737BC /* Source */ = {
+		49120BC522D367A500C6681E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				490B9D1522D3608E003737BC /* KSLoadingImageView.swift */,
+				49120BC622D367DF00C6681E /* KSLoadingImageView.swift */,
 			);
-			name = Source;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		59F4C360CAB18E0E856C2F7FDD2E2D69 /* Development Pods */ = {
@@ -203,7 +203,7 @@
 		CF67216A437DCEDD44EA2D300F7E5F8F /* KSHelper */ = {
 			isa = PBXGroup;
 			children = (
-				490B9D1422D36082003737BC /* Source */,
+				49120BC522D367A500C6681E /* Source */,
 				5F5CA2FC87C3CF50CF469ADD3AEBB041 /* Pod */,
 				634DA88C01FAD9F93DBF9526F82B2C3E /* Support Files */,
 			);
@@ -378,7 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A42D4AA68ABE0A435B6B84196118606 /* KSHelper-dummy.m in Sources */,
-				490B9D1622D3608E003737BC /* KSLoadingImageView.swift in Sources */,
+				49120BC722D367DF00C6681E /* KSLoadingImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1214B1F082A1C5018263BC6F20759224 /* KSHelper.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -440,6 +441,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -451,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1214B1F082A1C5018263BC6F20759224 /* KSHelper.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
