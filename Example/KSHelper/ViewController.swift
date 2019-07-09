@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = UIColor(r: 134, g: 134, b: 134)
         
         imageView.loadAndCacheImageWith(imageUrl: "https://firebasestorage.googleapis.com/v0/b/news-ticker.appspot.com/o/%22LP12gOnPGOSN8SGMGskt%22%2F1.png?alt=media&token=cdca5443-ba98-4ac6-9f7c-c38bee88b7ce")
         view.addSubview(imageView)
@@ -49,6 +50,12 @@ class ViewController: UIViewController {
         print(phrase.wordCount)
         
         let url = ("www.google.com").url()
+        print(url)
+        
+        UITextField.connectFields(fields: [UITextField(), UITextField()])
+        
+        self.hideKeyboardWhenTappedAround()
+        
         
     }
     
