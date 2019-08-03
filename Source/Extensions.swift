@@ -19,6 +19,34 @@ public extension UIViewController {
     }
 }
 
+public extension UIView {
+    enum linePosition {
+        case top
+        case bottom
+    }
+    func addLine(position : linePosition, color: UIColor, height: CGFloat, widthMultiplier: CGFloat) {
+        let lineView = UIView()
+        lineView.backgroundColor = color
+        lineView.translatesAutoresizingMaskIntoConstraints = false
+        self.addSubview(lineView)
+        if #available(iOS 9.0, *) {
+            lineView.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
+            lineView.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: widthMultiplier).isActive = true
+            lineView.heightAnchor.constraint(equalToConstant: height).isActive = true
+            switch position {
+            case .top:
+                lineView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+                break
+            case .bottom:
+                lineView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
+                break
+            }
+        } else {
+            // Fallback on earlier versions
+        }       
+    }
+}
+
 public extension UIColor {
     convenience init(r: CGFloat, g: CGFloat, b: CGFloat) {
         self.init(red: r/255, green: g/255, blue: b/255, alpha: 1)
